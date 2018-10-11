@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: ...
 subtitle: A summary of my personal projects
 tags: [programming, projects, c++]
 ---
