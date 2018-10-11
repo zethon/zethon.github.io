@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Conan: First Impressions
-image: /img/hello_world.jpeg
 tags: [diary, owl, conan]
 ---
 
