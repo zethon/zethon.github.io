@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conan: First Impressions
+title: Conan - First Impressions
 tags: [diary, owl, conan]
 ---
 
@@ -30,3 +30,6 @@ Which is caused simply by adding the following two lines to Owl's root `CMakeLis
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(TARGETS)
 ``` 
+
+[1]: https://github.com/zethon/Owl
+[2]: https://www.boost.org
