@@ -6,7 +6,7 @@ tags: [diary, owl, conan]
 
 I have been experimenting with Conan on my Max. I deally I would like to use it with [Owl][1] instead of the manual solution I have right now. This is essentially required if I want to get builds on Travis-CI and Appveyor working
 
-The very first thing I tried was adding boost[2], however this immediately created a problem. For some reason `conanbuildinfo.cmake` file is changing/overwriting the binary folder, which causes a problem in Owl's final build step when it tries to copy the default `owl.ini` file into the binary's package.
+The very first thing I tried was adding [boost][2], however this immediately created a problem. For some reason `conanbuildinfo.cmake` file is changing/overwriting the binary folder, which causes a problem in Owl's final build step when it tries to copy the default `owl.ini` file into the binary's package.
 
 More specifically I get the error:
 
