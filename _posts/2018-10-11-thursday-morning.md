@@ -1,7 +1,13 @@
 ---
 layout: post
 title: Conan - First Impressions
-tags: [diary, owl, conan]
+tags:
+  - diary
+  - owl
+  - conan
+  - package managers
+published: true
+date: '2018-10-11'
 ---
 
 I have been experimenting with Conan on my Max. I deally I would like to use it with [Owl][1] instead of the manual solution I have right now. This is essentially required if I want to get builds on Travis-CI and Appveyor working
