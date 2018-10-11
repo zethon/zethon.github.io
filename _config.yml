@@ -24,9 +24,8 @@ description: Adventures in software developement with C++ and one developer
 # List of links in the navigation bar
 navbar-links:
   # About Me: "aboutme"
+  Summary: "summary"
   Projects:
-    - Summary: "summary" 
-    - 
     - Owl: "https://github.com/zethon/Owl"
     - arcc: "https://github.com/zethon/arcc"
     - bbccpp: "https://github.com/zethon/bbcpp"

@@ -1,16 +1,19 @@
 ---
 layout: page
 title: Project Summary
-subtitle: Personal projects
+subtitle: A summary of my personal projects
+tags: [programming, projects, c++]
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+## Owl
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Owl is cross platform desktop application written in C++ using the Qt framework.
 
-What else do you need?
+## arcc
 
-### my history
+This projet is a CLI for Reddit written entirely in C++.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+## bbcpp
+
+BBCode is a common markdown for message boards. This library is a parser for BBCode that aims to be analogous to XML parsers in that it builds a DOM easily navigatable by the user/programmer.
+
