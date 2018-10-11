@@ -1,8 +1,7 @@
 ---
 layout: page
 title: ...
-subtitle: A summary of my personal projects
-tags: [programming, projects, c++]
+subtitle: Github Projects
 ---
 
 ## Owl
