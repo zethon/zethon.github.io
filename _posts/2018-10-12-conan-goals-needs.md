@@ -1,8 +1,16 @@
 ---
 layout: post
 published: true
-title: Conan Goals/Needs
+title: Libraries to consider for Owl and arcc
 ---
-## A New Post
+### [`fmt`][https://github.com/fmtlib/fmt]
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+A formatting library that allows you to do things like `std::string s = fmt::format("{0}{1}{0}", "abra", "cad");`. Nearly as fast, if not faster, than standard `std::cout` or `boost::format`.
+
+### [`spdlog`][https://github.com/gabime/spdlog]
+
+"Fast C++ logging library." Uses `fmt`-type syntax. Supports standard log sinks such as the console, text files and text files with rollovers.
+
+### [JSON for Modern C++][https://github.com/nlohmann/json]
+
+Very simple and easy to use JSON functionality using intuitive syntax and operations. This is already used in arcc.
