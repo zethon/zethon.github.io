@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Conan Goals/Needs
 ---
 ## A New Post
