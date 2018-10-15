@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Notes for Monday, October 15, 2018'
 ---
 ## Conan `NO_OUTPUT_DIRS` and `KEEP_RPATHS`
