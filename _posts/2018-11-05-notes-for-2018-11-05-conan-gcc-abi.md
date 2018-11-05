@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Notes for 2018-11-05 (Conan, GCC ABI)'
 ---
 ## Listing available Conan package configurations
@@ -42,4 +42,3 @@ Existing recipe in remote 'owl':
             os: Macos
         Outdated from recipe: True
 ```
-
