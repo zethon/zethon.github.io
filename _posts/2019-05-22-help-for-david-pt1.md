@@ -159,7 +159,7 @@ someVariable1 = 4;
 someVariable2 = 6;
 ```
 
-The variables we passed into the second function *did** get changed because `AddNumbers2` was using a *reference* for each parameter. Notice that the functions' bodies are identical. All I did was modify the way that they accept arguments. 
+The variables we passed into the second function *did* get changed because `AddNumbers2` was using a *reference* for each parameter. Notice that the functions' bodies are identical. All I did was modify the way that they accept arguments. 
 
 Keep in mind that this was all pseudo-code and some languages accept references differently or with different notation, but the idea is generally the same.
 
