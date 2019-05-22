@@ -87,7 +87,7 @@ Then we call our function:
 AddNumbers(someVariable1, someVariable2);
 ```
 
-This calls the function `AddNumbers` above. It will print: `Total is: 10`.
+This calls the function `AddNumbers` above. It will print: `Total is: 10`. Make sure you understand why before moving on.
 
 The value of the variables we passed into the function remain unchanged because we passed them "by value". We can test this by printing them out:
 
