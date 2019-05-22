@@ -10,7 +10,7 @@ Then somewhere else in the code I'm going to use that function. You're going to 
 
 All of this code is pseudo-code but is close enough to real languages that it will give you the right idea.
 
-## Passing by Copy
+## Passing by Value
 
 Here is the full code which we'll discuss in segments:
 
@@ -105,7 +105,7 @@ someVariable2 = 4
 
 <hr/>
 
-## Passing by Value
+## Passing by Reference
 
 Now we will change the function above slightly so that we can *pass by reference* and show how that is different.
 
