@@ -63,7 +63,7 @@ someVariable2 = 4
 
 
 <hr/>
-Now we will change the function above slightly so that we can pass by REFERENCE. This is still pseudo-code but I've put the "&" there to say "the arguments you pass into this function will be passed by REFERENCE. The `&` syntax is pretty common but some languages do it differently.
+Now we will change the function above slightly so that we can pass by REFERENCE. This is still pseudo-code but I've put the `&` there to say "the arguments you pass into this function will be passed by REFERENCE. The `&` syntax is pretty common but some languages do it differently.
 
 Here is the full code:
 
