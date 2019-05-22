@@ -6,6 +6,8 @@ date: '2019-05-22'
 ---
 ## Passing by Value vs Passing by Reference
 
+### Passing by Copy
+
 I'm going to define a simple function that takes two variables, adds `1` to the first, adds `2` to the second, stores the sum of them into a third variable and then prints that out:
 
 ```
@@ -63,6 +65,9 @@ someVariable2 = 4
 
 
 <hr/>
+
+### Passing by Value
+
 Now we will change the function above slightly so that we can pass by REFERENCE. This is still pseudo-code but I've put the `&` there to say "the arguments you pass into this function will be passed by REFERENCE. The `&` syntax is pretty common but some languages do it differently.
 
 Here is the full code:
