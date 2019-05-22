@@ -19,7 +19,7 @@ function AddNumbers(x, y)
 }
 ```
 
-The `x` and `y` inside the body of that function are COPIES of the variables we passed in. This is called "passing by value" (which is very similar to "passing by copy").
+The `x` and `y` inside the body of that function are COPIES of the variables we will pass in. This is called "passing by value" (which is very similar to "passing by copy").
 
 Now, somewhere else in the code I'm going to use that function. You're going to ask something like "is this code below written in a module, or a function, or what?" The answer is "yes". What you should remember is that all code is executed within a function which lives within a module.
 
@@ -46,7 +46,7 @@ Then we call our function:
 AddNumbers(someVariable1, someVariable2);
 ```
 
-This calls the function "AddNumbers" above. It will print: `Total is: 10`.
+This calls the function `AddNumbers` above. It will print: `Total is: 10`.
 
 The value of the variables we passed into the function remain unchanged because we passed them "by value". We can test this by printing them out:
 
@@ -63,7 +63,7 @@ someVariable2 = 4
 
 
 <hr/>
-Now we will change the function above slightly so that we can pass by REFERENCE. This is still pseudo-code but I've put the "&" there to say "the arguments you pass into this function will be passed by REFERENCE.
+Now we will change the function above slightly so that we can pass by REFERENCE. This is still pseudo-code but I've put the "&" there to say "the arguments you pass into this function will be passed by REFERENCE. The `&` syntax is pretty common but some languages do it differently.
 
 Here is the full code:
 
@@ -86,7 +86,7 @@ print ("someVariable1 = " + someVariable1);
 print ("someVariable2 = " + someVariable2);
 ```
 
-Notice, I changed the function's name to `AddNumbers2`. Also, this time the 'x' and 'y' REFERENCES to the original variables we will use as arguments. That means if we modify them, we also modify the original. Think of it like "particle coupling" in quantum mechanics.
+Notice, I changed the function's name to `AddNumbers2`. Also, this time the `x` and `y` REFERENCES to the original variables we will use as arguments. That means if we modify them, we also modify the original. Think of it like "particle coupling" in quantum mechanics.
 
 Now let's exam the parts again:
 
