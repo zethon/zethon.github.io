@@ -62,7 +62,10 @@ Let's look at this carefully:
 
 `}` - This simply marks the end of the function.
 
-What to note here is that `x` and `y` inside this function are **copies** of whatever variables we will pass in. This functions accepts arguments that are *passed by value*. 
+What to note here is that `x` and `y` inside this function are **copies** of whatever variables we will pass in. This function accepts arguments that are *passed by value*. 
+
+Here is the code where we actually use the function:
+
 
 ```
 someVariable1 = 3;
@@ -74,7 +77,7 @@ print ("someVariable1 = " + someVariable1);
 print ("someVariable2 = " + someVariable2);
 ```
 
-I'm going to break this up. First we declare two variables:
+First we declare two variables:
 
 ```
 someVariable1 = 3;
