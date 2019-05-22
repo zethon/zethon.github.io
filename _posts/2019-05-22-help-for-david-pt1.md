@@ -4,9 +4,36 @@ published: true
 title: Passing by Value vs Passing by Reference
 date: '2019-05-22'
 ---
-### Passing by Copy
+I'm going to define a simple function that takes two variables, adds `1` to the first, adds `2` to the second, stores the sum of them into a third variable and then prints that out. 
 
-I'm going to define a simple function that takes two variables, adds `1` to the first, adds `2` to the second, stores the sum of them into a third variable and then prints that out:
+Then somewhere else in the code I'm going to use that function. You're going to ask something like "is this code below written in a module, or a function, or what?" The answer is "yes". What you should remember is that **all code is executed within a function which lives within a module**.
+
+All of this code is pseudo-code but is close enough to real languages that it will give you the right idea.
+
+## Passing by Copy
+
+Here is the full code which we'll discuss in segments:
+
+```
+function AddNumbers(x, y)
+{
+    x = x + 1;
+    y = y + 2;
+    
+    z = x + y;
+    print ("Total is: " + z);
+}
+
+someVariable1 = 3;
+someVariable2 = 4;
+
+AddNumbers(someVariable1, someVariable2);
+
+print ("someVariable1 = " + someVariable1);
+print ("someVariable2 = " + someVariable2);
+```
+
+First let's look at where we declare the function:
 
 ```
 function AddNumbers(x, y)
@@ -19,9 +46,23 @@ function AddNumbers(x, y)
 }
 ```
 
-The `x` and `y` inside the body of that function are COPIES of the variables we will pass in. This is called "passing by value" (which is very similar to "passing by copy").
+Let's look at this carefully:
 
-Now, somewhere else in the code I'm going to use that function. You're going to ask something like "is this code below written in a module, or a function, or what?" The answer is "yes". What you should remember is that all code is executed within a function which lives within a module.
+`function AddNumbers(x, y)` - We declare a function and say it accepts two arguments/parameters which we will call `x` and `y`.
+
+`{` - This simply marks the beginning of the function.
+
+`x = x + 1;` - Here we take whatever value is in `x`, add `1` to it and store the new value back into `x`
+
+`y = y + 2;` - Here we take whatever value is in `y`, add `2` to it and store the new value back into `y`
+
+`z = x + y;` - This creates a **new variable**, named `z`, which stores the sum of `x` and `y`
+
+`print ("Total is: " + z);` - This will print whatever value we have in `z`.
+
+`}` - This simply marks the end of the function.
+
+What to note here is that `x` and `y` inside this function are **copies** of whatever variables we will pass in. This functions accepts arguments that are *passed by value*. 
 
 ```
 someVariable1 = 3;
@@ -64,9 +105,11 @@ someVariable2 = 4
 
 <hr/>
 
-### Passing by Value
+## Passing by Value
 
-Now we will change the function above slightly so that we can pass by REFERENCE. This is still pseudo-code but I've put the `&` there to say "the arguments you pass into this function will be passed by REFERENCE. The `&` syntax is pretty common but some languages do it differently.
+Now we will change the function above slightly so that we can *pass by reference* and show how that is different.
+
+This is still pseudo-code but I've put the `&` there to say "the arguments you pass into this function will be passed by reference. The `&` syntax is pretty common but some languages do it differently.
 
 Here is the full code:
 
