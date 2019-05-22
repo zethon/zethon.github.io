@@ -127,3 +127,6 @@ Also notice that the functions' bodies are identical. All I did was modify the w
 Keep in mind that this was all pseudo-code and some languages accept references differently or with different notation, but the idea is generally the same.
 
 Another thing to note here is that I used "pass by value" and "pass by reference" with functions. Functions are just small segments of work. Modules are collections of functions. 
+
+<hr/>
+<small>Note: This is written for my friend David who is taking a programming class.</small>
