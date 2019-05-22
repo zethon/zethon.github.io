@@ -161,7 +161,7 @@ someVariable2 = 6;
 
 The variables we passed into the second function *did* get changed because `AddNumbers2` was using a *reference* for each parameter. Notice that the functions' bodies are identical. All I did was modify the way that they accept arguments. 
 
-Keep in mind that this was all pseudo-code and some languages accept references differently or with different notation, but the idea is generally the same.
+Keep in mind that this was all pseudo-code, some languages accept references differently or with different notation. Also, I took a few liberties here that some languages would complain about. However, general idea is the same and hopefully explains the difference between *pass by value* and *pass by reference*. 
 
 <hr/>
 <small>Note: This was written for my friend David who is taking a programming class.</small>
