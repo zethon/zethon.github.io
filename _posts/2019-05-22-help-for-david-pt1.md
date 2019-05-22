@@ -80,7 +80,7 @@ function AddNumbers2(&x, &y)
 someVariable1 = 3;
 someVariable2 = 4;
 
-AddNumbers(someVariable1, someVariable2);
+AddNumbers2(someVariable1, someVariable2);
 
 print ("someVariable1 = " + someVariable1);
 print ("someVariable2 = " + someVariable2);
