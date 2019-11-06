@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Conan `conanfile.py` for consumers
+title: Including packages conditionally with Conan
 date: '2019-11-06'
 subtitle: Condition Conan includes
 ---
