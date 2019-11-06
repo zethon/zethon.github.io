@@ -45,9 +45,9 @@ class PDCursesConan(ConanFile):
 
 8. `conan export-pkg . pdcurses/3.9@zethon/stable` - This creates the manifest file, which is necessary for uploading.
 
-9.`conan upload pdcurses/3.9@zethon/stable -r arcc --all` - Finally we upload the package to the remote repository! In this case I had previously added `arcc` as a remote hosted on bintray.com.
+9. `conan upload pdcurses/3.9@zethon/stable -r arcc --all` - Finally we upload the package to the remote repository! In this case I had previously added `arcc` as a remote hosted on bintray.com.
 
-## User Authentication
+### User Authentication
 
 PDCurses was the first custom Conan package I needed for this project, so I created a new reposistory in Bintray called `arcc` (the name of the project). When I first ran Step 9 above I was met with this message:
 
