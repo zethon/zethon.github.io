@@ -8,7 +8,7 @@ This is how I hacked together a Conan package for use with my [Windows console p
 
 I wrote about this [over a year ago](https://zethon.github.io/2018-10-16-conan/) when I first started using Conan, but my understanding then was even less than it is now (and it's still pretty minimal). I had to revisit this recently and I wanted to write up a more concise step-by-step guide on how I did this in case I have to do it again in another year.
 
-### Prerequisite 
+### Prerequisites
 
 My username on bintray.com is `zethon` (surprise) and before I started this process I had already created a remote repository on bintray.com called `arcc`. 
 
