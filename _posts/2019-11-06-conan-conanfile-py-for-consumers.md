@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Including packages conditionally with Conan
+title: Conditionally including packages with Conan
 date: '2019-11-06'
 subtitle: Condition Conan includes
 ---
