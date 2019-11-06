@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Conditionally including packages with Conan
 date: '2019-11-06'
-subtitle: Condition Conan includes
+subtitle: Alternate to the `conanfile.txt` file
 ---
 ## Conan `conanfile.py` for consumers
 
