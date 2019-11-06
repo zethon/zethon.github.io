@@ -7,7 +7,7 @@ subtitle: Alternate to the `conanfile.txt` file
 ---
 ## Conan `conanfile.py` for consumers
 
-I wanted to add [curses](https://en.wikipedia.org/wiki/Curses_(programming_library)) support to a cross-platform [consol project](https://github.com/zethon/arcc) I've been working on on and off for a couple years. The standard implmentation of ncurses for macOS and Linux was relatively easy to add via Conan, however there is no "ncurses for Windows" implementation. Instead there is [PDCurses](https://pdcurses.org/) which is a port of ncurses to Windows. 
+I wanted to add [curses](https://en.wikipedia.org/wiki/Curses_(programming_library)) support to a cross-platform [console project](https://github.com/zethon/arcc) I've been working on on and off for a couple years. The standard implmentation of ncurses for macOS and Linux was relatively easy to add via Conan, however there is no "ncurses for Windows" implementation. Instead there is [PDCurses](https://pdcurses.org/) which is a port of ncurses to Windows. 
 
 So how could I resolve this in my `conanfile.txt` file? From what I could tell there was no way to tell the configuration "if we're on Windows then include *this*, but if we're on macOS then include *that*. I was right! There is no way to do it in `conanfile.txt` **but** `conanfile.txt` is not my only option!
 
