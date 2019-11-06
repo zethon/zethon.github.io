@@ -8,6 +8,12 @@ This is how I hacked together a Conan package for use with my [Windows console p
 
 I wrote about this [over a year ago](https://zethon.github.io/2018-10-16-conan/) when I first started using Conan, but my understanding then was even less than it is now (and it's still pretty minimal). I had to revisit this recently and I wanted to write up a more concise step-by-step guide on how I did this in case I have to do it again in another year.
 
+### Prerequisite 
+
+My username on bintray.com is `zethon` (surprise) and before I started this process I had already created a remote repository on bintray.com called `arcc`. 
+
+### Step-By-Step
+
 1. Build the source code - This step should be obvious. In my case the results were some header files and a single \*.lib file.
 
 2. Create a new folder for the package - In this case I created `c:\src\conan-pdcurses` since I wanted to package PDCurses.
@@ -45,9 +51,9 @@ class PDCursesConan(ConanFile):
 
 8. `conan export-pkg . pdcurses/3.9@zethon/stable` - This creates the manifest file, which is necessary for uploading.
 
-9. `conan upload pdcurses/3.9@zethon/stable -r arcc --all` - Finally we upload the package to the remote repository! In this case I had previously added `arcc` as a remote hosted on bintray.com.
+9. `conan upload pdcurses/3.9@zethon/stable -r arcc --all` - Finally we upload the package to the remote repository!
 
-### User Authentication
+**Oh but wait, there's a problem...**
 
 PDCurses was the first custom Conan package I needed for this project, so I created a new reposistory in Bintray called `arcc` (the name of the project). When I first ran Step 9 above I was met with this message:
 
