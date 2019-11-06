@@ -4,7 +4,7 @@ published: true
 title: Hacking Together a Conan Package
 date: '2019-11-06'
 ---
-This is how I hacked together a Conan package for use with my Windows console project. I wasn't concerned with having Conan automatically build the project's code, instead I wanted to compile the code myself and public the resulting files so that my project could reference them. 
+This is how I hacked together a Conan package for use with my [Windows console project](https://github.com/zethon/arcc). I wasn't concerned with having Conan automatically build the project's code, instead I wanted to compile the code myself and public the resulting files so that my project could reference them. 
 
 I wrote about this [over a year ago](https://zethon.github.io/2018-10-16-conan/) when I first started using Conan, but my understanding then was even less than it is now (and it's still pretty minimal). I had to revisit this recently and I wanted to write up a more concise step-by-step guide to how I did this in case I have to do it again in another year.
 
