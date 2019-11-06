@@ -69,4 +69,4 @@ Once I did that I was able to run Step 9 succesfully.
 
 ## Conclusion
 
-After this was all done I was able to include PDCurses in my Conan settings as `pdcurses/3.9@zethon/stable`. 
+After this was all done I was able to include PDCurses ([in my Windows build only!](https://zethon.github.io/2019-11-06-conan-conanfile-py-for-consumers/)) as `pdcurses/3.9@zethon/stable`. 
