@@ -53,7 +53,7 @@ class PDCursesConan(ConanFile):
 
 9. `conan upload pdcurses/3.9@zethon/stable -r arcc --all` - Finally we upload the package to the remote repository!
 
-**Oh but wait, there's a problem...**
+**Oh wait, there's a problem...**
 
 PDCurses was the first custom Conan package I needed for this project, so I created a new reposistory in Bintray called `arcc` (the name of the project). When I first ran Step 9 above I was met with this message:
 
