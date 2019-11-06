@@ -11,9 +11,9 @@ I wanted to add [curses](https://en.wikipedia.org/wiki/Curses_(programming_libra
 
 So how could I resolve this in my `conanfile.txt` file? From what I could tell there was no way to tell the configuration "if we're on Windows then include *this*, but if we're on macOS then include *that*. I was right! There is no way to do it in `conanfile.txt` **but** `conanfile.txt` is not my only option!
 
-When doing `conan install`, Conan will look for either `conanfile.txt` or `conanfile.py` (note: I have not experimented to see which one takes priority if they're both present). This might have been obvious to many but not to me!
+When doing `conan install`, Conan will look for either `conanfile.txt` or `conanfile.py` (note: I have not experimented to see which one takes priority if they're both present). 
 
-Hence I was able to define my `conanfile.py` like so:
+I created a `conanfile.py` like so:
 
 ```
 class MyConanFile(ConanFile):
@@ -36,4 +36,4 @@ class MyConanFile(ConanFile):
             self.requires("ncurses/6.1@conan/stable")
 ```
 
-The important part here being `def requirements`. Once I did this I was able to conditionally include files with Conan.
+The important part here being `def requirements`. Once I did this I was able to conditionally include files with Conan and my existing build jobs worked without a problem.
