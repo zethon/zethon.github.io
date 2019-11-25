@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Conan: Adding a new build_type to an existing package'
+date: '2019-11-24'
 ---
 I am still working my way through learning Conan. I only make changes to it when I have to, which luckily isn't often but whenever I do it's aways a learning experience.
 
@@ -36,6 +37,7 @@ Existing recipe in remote 'arcc':
 * `conan export-pkg .. pdcurses/3.9@zethon/stale -pf .` - I believe this just installs the package locally. It may not strictly be necesary if it you just upload the package and then download it through the consuming project.
 * `conan upload pdcurses/3.9@zethon/stable -r arcc --all` - Push everything up to our repo.
 * `conan search pdcurses/3.9@zethon/stable -r arcc` - And nowe we verify we have a Debug package.
+
 ```
 $ conan search pdcurses/3.9@zethon/stable -r arcc
 Existing packages for recipe pdcurses/3.9@zethon/stable:
