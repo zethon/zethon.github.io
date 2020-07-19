@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: Writing const and non-const Getters
+date: '2020-07-19'
 ---
 One use of `const_cast` is to avoid duplicating code when implementing getters in a class. If you want users of your class to have write-access to a member object, then in order to provide write-access and read-only access to the member you might do something like:
 
