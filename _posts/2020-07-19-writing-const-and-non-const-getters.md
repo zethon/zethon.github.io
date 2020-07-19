@@ -48,8 +48,8 @@ const Texture& texture() const
 Texture& texture() { return _texture; }
 ```
 
-When I first saw this, my gut reaction was to go with the second option mostly because casting **away** the const felt wrong. However, what I didn't realize is that the second version is calling a non-const function within a const context, which is even worse than casting away const'ness.
+When I first saw this, my gut reaction was to go with the second option mostly because casting **away** the const felt wrong. However, what I didn't realize is that the second version is calling a non-const function within a const context, which is even worse than casting away const'ness. For example, imagine someone came along later and changed the non-const version of `texture()` to modify some internal state of the object/
 
-Because of that, the first option is preferred.
+Because of this the first option is preferred.
 
 **Note:** This topic is discussed in Item 3 in *Effective C++, Third Edition* by Scott Meyers
