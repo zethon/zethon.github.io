@@ -18,7 +18,7 @@ class Player
 
 public:
     
-    const Texture& texture() const { return _texture_; }
+    const Texture& texture() const { return _texture; }
     Texture& texture() { return _texture; }
 };
 ```
