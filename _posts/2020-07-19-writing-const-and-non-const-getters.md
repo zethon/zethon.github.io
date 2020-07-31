@@ -29,7 +29,10 @@ We have two options. We can implement the const version and do a cast in the non
 
 
 ```
-const Texture& texture() const { return _texture; }
+const Texture& texture() const 
+{ 
+	return _texture; 
+}
 
 Texture& texture() 
 {
@@ -45,7 +48,10 @@ const Texture& texture() const
     return (const_cast<Person&>(*this)).texture();
 }
 
-Texture& texture() { return _texture; }
+Texture& texture() 
+{ 
+	return _texture; 
+}
 ```
 
 When I first saw this, my gut reaction was to go with the second option mostly because casting **away** the const felt wrong. However, what I didn't realize is that the second version is calling a non-const function within a const context, which is even worse than casting away const'ness. For example, imagine someone came along later and changed the non-const version of `texture()` to modify some internal state of the object/
