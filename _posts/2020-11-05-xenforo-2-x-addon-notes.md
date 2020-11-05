@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Xenforo 2.x Addon Notes
+title: 'Xenforo 2.x Addon: `xf-addon:create` not working'
 date: '2020-11-05'
 ---
 ## Creating the Addon
