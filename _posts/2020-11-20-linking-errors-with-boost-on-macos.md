@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Linking errors with boost on macOS
 date: '2020-11-20'
 ---
