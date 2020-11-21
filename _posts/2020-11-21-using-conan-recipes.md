@@ -16,8 +16,8 @@ First I used the recipe to pull the library's source: `conan source .`
 
 Then I "installed" the package: `conan install .`
 
-Next I was ready to pacakge everything together: `conan package .`
+Next I was ready to package everything together: `conan package .`
 
 Now I was ready to install the package locally: `conan export-pkg . Simple-Web-Server/v3.1.1@owl/stable`
 
-Finally I was ready to upload the package to my repo: `conan upload Simple-Web-Server/v3.1.1@owl/stable -r owl --all`
+Finally, I was ready to upload the package to my repo: `conan upload Simple-Web-Server/v3.1.1@owl/stable -r owl --all`
