@@ -4,11 +4,11 @@ published: true
 title: Simple CMake to Compile Resources
 date: '2020-12-08'
 ---
-Recently I have been working on a project that has a [Simple Web Server](https://gitlab.com/eidheim/Simple-Web-Server), so I needed a way to server HTML files to the user. 
+Recently I have been working on a project that has a [Simple Web Server](https://gitlab.com/eidheim/Simple-Web-Server), so I needed a way to serve HTML files. 
 
-Of course the first thing I did was turn to Google! Since I am working in C++ I went looking for `c++ cmake compile resources` and the first thing I found was [this](https://vector-of-bool.github.io/2017/01/21/cmrc.html). However this project was much much more involved than I needed, going so far as to implement a mini-filesystem, much like Qt's resource system.
+I went to Google and searched `c++ cmake compile resources`. The first project I found was [this](https://vector-of-bool.github.io/2017/01/21/cmrc.html). However this project was much more involved than I needed, going so far as to implement a mini-filesystem, much like Qt's resource system.
 
-What I implemented is much more simple. It takes the resource and compiles it into a header file, compiling the entire content of each resource into a `const char[]`. 
+What I wasnted was more simple. I wanted to take a resource, compile it into a header as a `char` array. This was my solution:
 
 ```cmake
 function(generate_header INPUTFILE OUTPUTFILE VARNAME)
@@ -48,7 +48,7 @@ function(z_compile_resources RESOURCE_LIST)
 endfunction()
 ```
 
-Now we can compile resources in our CMake file like so:
+Now I can compile resources in my CMake file like so:
 
 ```cmake
 z_compile_resources(RESOURCE_FILES
@@ -56,7 +56,7 @@ z_compile_resources(RESOURCE_FILES
 )
 ```
 
-Now when we run CMake this will generate a header file that looks like:
+And when we run CMake header file that looks like this is generated:
 
 ```cpp
 #pragma once
@@ -70,6 +70,6 @@ This is awesome! And now in my source file I can use it like so:
 #include "index_html.h"
 
 /* lots of code here */
-response->write(index_html)
+std:::cout << index_html << '\n';
 ```
 
