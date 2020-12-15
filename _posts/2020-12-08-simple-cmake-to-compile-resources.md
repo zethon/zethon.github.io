@@ -1,8 +1,11 @@
 ---
-layout: post
-published: true
-title: Simple CMake to Compile Resources
+title: "Simple CMake to Compile Resources"
 date: '2020-12-08'
+categories:
+  - blog
+tags:
+  - cmake
+  - resources
 ---
 Recently I have been working on a project that has a [Simple Web Server](https://gitlab.com/eidheim/Simple-Web-Server), so I needed a way to serve HTML files. 
 
