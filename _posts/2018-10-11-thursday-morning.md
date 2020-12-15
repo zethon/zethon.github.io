@@ -1,13 +1,12 @@
 ---
-layout: post
 title: Working with Conan
-tags:
-  - diary
-  - owl
-  - conan
-  - package managers
-published: true
 date: '2018-10-09'
+categories:
+  - blog
+tags:
+  - conan
+  - macos
+published: true
 ---
 
 I have been experimenting with Conan on my Mac. Ideally I would like to use it with [Owl][1] instead of the manual solution I have right now. This is essentially required if I want to get builds on Travis-CI and Appveyor working

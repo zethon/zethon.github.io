@@ -1,7 +1,11 @@
 ---
-layout: post
-published: true
 title: 'Notes for Monday, October 15, 2018'
+date: '2018-10-15'
+categories:
+  - blog
+tags:
+  - conan
+published: true
 ---
 ## Conan `NO_OUTPUT_DIRS` and `KEEP_RPATHS`
 
