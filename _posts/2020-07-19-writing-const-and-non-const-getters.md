@@ -9,7 +9,7 @@ published: true
 ---
 One use of `const_cast` is to avoid duplicating code when implementing getters in a class. If you want users of your class to have write-access to a member object, then in order to provide write-access and read-only access to the member you might do something like:
 
-```
+```cpp
 class Texture
 {
     // lots of stuff
@@ -31,7 +31,7 @@ But we would like to avoid the code duplication.
 We have two options. We can implement the const version and do a cast in the non-const version like so:
 
 
-```
+```cpp
 const Texture& texture() const 
 { 
 	return _texture; 
@@ -45,7 +45,7 @@ Texture& texture()
 
 Or we can do the opposite, we can implement the non-const version and cast in the const version. Something like:
 
-```
+```cpp
 const Texture& texture() const
 { 
     return (const_cast<Person&>(*this)).texture();
