@@ -1,9 +1,11 @@
 ---
-layout: post
-published: true
 title: Conditionally including packages with Conan
 date: '2019-11-05'
-subtitle: Alternate to the `conanfile.txt` file
+categories:
+  - blog
+tags:
+  - conan
+published: true
 ---
 ## Conan `conanfile.py` for consumers
 

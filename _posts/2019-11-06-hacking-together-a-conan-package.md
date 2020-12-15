@@ -1,8 +1,11 @@
 ---
-layout: post
-published: true
 title: Hacking Together a Conan Package
 date: '2019-11-06'
+categories:
+  - blog
+tags:
+  - conan
+published: true
 ---
 This is how I hacked together a Conan package for use with my [Windows console project](https://github.com/zethon/arcc). I wasn't concerned with having Conan automatically build the project's code, instead I wanted to compile the code myself and publish the resulting files so that my project could use them. 
 

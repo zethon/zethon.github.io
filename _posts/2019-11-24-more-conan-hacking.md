@@ -1,8 +1,11 @@
 ---
-layout: post
-published: true
 title: 'Conan: Adding a new build_type to an existing package'
 date: '2019-11-24'
+categories:
+  - blog
+tags:
+  - conan
+published: true
 ---
 I am still working my way through learning Conan. I only make changes to it when I have to, which luckily isn't often but whenever I do it's aways a learning experience.
 

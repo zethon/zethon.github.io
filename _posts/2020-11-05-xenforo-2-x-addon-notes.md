@@ -1,8 +1,11 @@
 ---
-layout: post
-published: true
 title: 'Xenforo 2.x Addon: `xf-addon:create` not working'
 date: '2020-11-05'
+categories:
+  - blog
+tags:
+  - xenforo
+published: true
 ---
 ## Creating the Addon
 

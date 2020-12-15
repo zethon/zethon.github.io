@@ -1,8 +1,11 @@
 ---
-layout: post
-published: false
 title: Prioritizing Projects
 date: '2019-10-26'
+categories:
+  - blog
+tags:
+  - projects
+published: true
 ---
 Like most developers, I have several ideas I'm juggling at any given time. 
 

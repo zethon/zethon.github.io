@@ -1,8 +1,12 @@
 ---
-layout: post
-published: true
 title: Passing by Value vs Passing by Reference
 date: '2019-05-22'
+categories:
+  - blog
+tags:
+  - c++
+  - beginner
+published: true
 ---
 I'm going to define a simple function that takes two variables, adds `1` to the first, adds `2` to the second, stores the sum of them into a third variable and then prints that out. 
 

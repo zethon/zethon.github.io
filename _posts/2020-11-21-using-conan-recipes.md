@@ -1,8 +1,11 @@
 ---
-layout: post
-published: true
 title: Using a Conan Recipe (the basics)
 date: '2020-11-21'
+categories:
+  - blog
+tags:
+  - conan
+published: true
 ---
 I'm using [Simple Web Server](https://gitlab.com/eidheim/Simple-Web-Server) for a project and I wanted a way to pull the library down via Conan. I found [a recipe](https://github.com/inexorgame-obsolete/conan-simple-web-server) for the library a couple months ago but was still unsure of how to use it. If I couldn't find the library being hosted in an existing repo, how exactly do I use the recipe such that I can host the resource in my own repo? I had done this multiple times before but it was always a bastardization of the process and it was always something I had to figure out through trial and error.
 

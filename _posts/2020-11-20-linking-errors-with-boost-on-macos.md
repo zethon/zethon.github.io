@@ -1,8 +1,12 @@
 ---
-layout: post
-published: true
 title: Linking errors with boost on macOS
 date: '2020-11-20'
+categories:
+  - blog
+tags:
+  - boost
+  - cmake
+published: true
 ---
 I recently revived [an old project](https://github.com/zethon/arcc) and tried to get it to build on my Mac. I was immediately met with this error:
 

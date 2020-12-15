@@ -1,8 +1,12 @@
 ---
-layout: post
-published: true
 title: '`Error opening terminal: xterm-256color`'
 date: '2019-11-07'
+categories:
+  - blog
+tags:
+  - c++
+  - pdcurses
+published: true
 ---
 PDCurses worked just fine on Windows, but running the same code on macOS with ncurses kept giving me this error:
 
