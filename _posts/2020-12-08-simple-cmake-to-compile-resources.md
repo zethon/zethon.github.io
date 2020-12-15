@@ -1,17 +1,18 @@
 ---
-title: "Simple CMake to Compile Resources"
+title: Simple CMake to Compile Resources
 date: '2020-12-08'
 categories:
   - blog
 tags:
   - cmake
   - resources
+published: true
 ---
 Recently I have been working on a project that has a [Simple Web Server](https://gitlab.com/eidheim/Simple-Web-Server), so I needed a way to serve HTML files. 
 
 I went to Google and searched `c++ cmake compile resources`. The first project I found was [this](https://vector-of-bool.github.io/2017/01/21/cmrc.html). However this project was much more involved than I needed, going so far as to implement a mini-filesystem, much like Qt's resource system.
 
-What I wasnted was more simple. I wanted to take a resource, compile it into a header as a `char` array. This was my solution:
+What I wanted was more simple. I wanted to take a resource, compile it into a header as a `char` array. This was my solution:
 
 ```cmake
 function(generate_header INPUTFILE OUTPUTFILE VARNAME)
@@ -75,4 +76,3 @@ This is awesome! And now in my source file I can use it like so:
 /* lots of code here */
 std:::cout << index_html << '\n';
 ```
-
