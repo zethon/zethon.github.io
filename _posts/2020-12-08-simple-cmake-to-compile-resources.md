@@ -60,7 +60,7 @@ z_compile_resources(RESOURCE_FILES
 )
 ```
 
-And when we run CMake header file that looks like this is generated:
+And now CMake will generate a header file that looks like this:
 
 ```cpp
 #pragma once
@@ -74,5 +74,5 @@ This is awesome! And now in my source file I can use it like so:
 #include "index_html.h"
 
 /* lots of code here */
-std:::cout << index_html << '\n';
+std::cout << index_html << '\n';
 ```
