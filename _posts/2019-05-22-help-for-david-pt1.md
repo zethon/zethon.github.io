@@ -8,7 +8,8 @@ tags:
   - beginner
 published: true
 ---
-{: .notice--info}Note: This was written for a friend of mine who is taking a programming class.
+Note: This was written for a friend of mine who is taking a programming class.
+{: .notice--info}
 
 I'm going to define a simple function that takes two variables, adds `1` to the first, adds `2` to the second, stores the sum of them into a third variable and then prints that out. 
 
