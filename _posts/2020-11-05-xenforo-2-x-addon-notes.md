@@ -11,7 +11,7 @@ published: true
 
 The first step in creating a new Xenforo Addon is creating the addon within the Xenforo dev environment with the following command: `php cmd.php xf-addon:create`. 
 
-Last night I set up a development environment for Xenforo using (XAMPP)[https://www.apachefriends.org/index.html]. I was able to install Xenforo and create an addon without a problem on Windows. 
+Last night I set up a development environment for Xenforo using [XAMPP](https://www.apachefriends.org/index.html). I was able to install Xenforo and create an addon without a problem on Windows. 
 
 However, when I tried to do this on Mac I got the following error:
 
