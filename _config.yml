@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Addy"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/muping.jpg"
   bio    : "I mostly work in C++ but also dabble in C#, Perl, Haskell and PHP."
   links:
     # - label: "Website"
