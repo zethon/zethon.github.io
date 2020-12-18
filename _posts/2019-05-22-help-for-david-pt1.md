@@ -8,6 +8,8 @@ tags:
   - beginner
 published: true
 ---
+Note: This was written for a friend of mine who is taking a programming class.{: .notice--info}
+
 I'm going to define a simple function that takes two variables, adds `1` to the first, adds `2` to the second, stores the sum of them into a third variable and then prints that out. 
 
 Then somewhere else in the code I'm going to use that function. You're going to ask something like "is this code below written in a module, or a function, or what?" The answer is "yes". What you should remember is that **all code is executed within a function which lives within a module**.
@@ -169,6 +171,3 @@ someVariable2 = 6;
 The variables we passed into the second function *did* get changed because `AddNumbers2` was using a *reference* for each parameter. Notice that the functions' bodies are identical. All I did was modify the way that they accept arguments. 
 
 Keep in mind that this was all pseudo-code, some languages accept references differently or with different notation. Also, I took a few liberties here that some languages would complain about. However, the general idea is the same and hopefully explains the difference between *pass by value* and *pass by reference*. 
-
-<hr/>
-<small>Note: This was written for my friend David who is taking a programming class.</small>
