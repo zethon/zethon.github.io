@@ -39,7 +39,7 @@ const Texture& texture() const
 
 Texture& texture() 
 {
-    return const_cast<Texture&>(static_cast<const Player&>(*this));
+    return const_cast<Texture&>(static_cast<const Player&>(*this).texture());
 }
 ```
 
