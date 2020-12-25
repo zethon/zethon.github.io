@@ -13,7 +13,7 @@ Currently I am building a cryptocurrency in the C++. The project can be found [h
 
 Much of what I'm learning comes from [this Javascript tutorial](https://lhartikk.github.io/) on writing your own crypto. However, like any tutorial, the author assumes a foundation of knowledge that may not exist. At other times important details are left out for reasons I can't figure out. This is not a knock on the author, for the tutorial is well written, is excellent source material, and has helped me immensely. This post is just an attempt to fill in some of the things that I perceive to be missing.
 
-<div class="notice">Note: This post will be updated periodically to cover all items in the tutorial that I believe are missing.</div>
+<div class="info">Note: This post will be updated periodically to cover all items in the tutorial that I believe are missing.</div>
 
 ## Chapter 3 - Transactions
 
