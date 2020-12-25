@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-Currently I am building a cryptocurrency in the C++. The project can be found [here](https://github.com/zethon/Ash). This is not a project where I've forked another code base, instead the purpose of this project is to write a brand new protocol from scratch. 
+Currently I am building a cryptocurrency in C++. The project can be found [here](https://github.com/zethon/Ash). This is not a project where I've forked another code base, instead the purpose of this project is to write a brand new protocol from scratch. 
 
 Much of what I'm learning comes from [this Javascript tutorial](https://lhartikk.github.io/). However, like any tutorial, the author assumes a foundation of knowledge that may not exist, or leaves out important details. This is not a knock on the author, for the tutorial is well written, is excellent source material, and has helped me immensely. This post is just an attempt to fill in some of the gaps.
 
