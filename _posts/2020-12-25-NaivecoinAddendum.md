@@ -29,11 +29,13 @@ class TxIn
 
 The `signature` field is explained but the `txOutId` and `txOutIndex` fields never are! Here is what I could find out from both of them.
 
-#### `txOutId`
-
-This is the transaction id in which the `TxIn` exists. 
+The `txIn` is the part of the transaction that says "the money being sent in this transaction comes from this `txtOut`". That `txOut` is located by two components:
 
 #### `txOutIndex`
 
-This is the block index that contains the transaction in which this `TxIn` exists.
+This is the block index that contains the transaction in which the originating `TxOut` exists.
+
+#### `txOutId`
+
+This is the transaction id in which the originating `TxOut` exists. 
 
