@@ -1,5 +1,12 @@
 ---
-published: false
+title: Naivecoin Addendum
+date: '2020-12-25'
+categories:
+  - blog
+tags:
+  - crypto
+  - cpp
+published: true
 ---
 ## Introduction
 
