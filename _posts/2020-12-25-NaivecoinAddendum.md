@@ -8,7 +8,7 @@ tags:
   - cpp
 published: true
 ---
-Currently I am building a cryptocurrency in the C++. The project can be found [here](https://github.com/zethon/Ash). This is not a project where I've forked another code base. The purpose of this project was to write a brand new protocol from scratch. 
+Currently I am building a cryptocurrency in the C++. The project can be found [here](https://github.com/zethon/Ash). This is not a project where I've forked another code base, instead the purpose of this project is to write a brand new protocol from scratch. 
 
 Much of what I'm learning from writing a cryptocurrency has been taken from [this Javascript tutorial](https://lhartikk.github.io/) on writing your own crypto. However, like any tutorial, the author assumes a foundation of knowledge in the reader that may not exist. At other times important details are left out for reasons I can't figure out. This is not a knock on the author. The example is an excellent tutorial and has helped me immensely. This post is just an attempt to fill in some of the things that I perceive to be missing.
 
