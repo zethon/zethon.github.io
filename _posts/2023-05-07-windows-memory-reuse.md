@@ -9,8 +9,6 @@ tags:
 published: true
 ---
 
-# Unit Testing
-
 I have an object that will sometimes delete and immediately reallocate some memory. For example:
     
 ```cpp
@@ -47,4 +45,4 @@ As a matter of fact, this seems to be so reasonable that CoPilot suggested the f
 
 # Windows Memory Reuse
 
-The class I was writing is more complicated than the example above, so when my unit tests failed I assumed it was a problem with my code. Of course this was an issue where it was only failing on the build machines and locally everything worked just fine. After adding various debug logs to by unit tests, the only explanation I could come up with is that Windows will sometimes immediately reuse memory that was just freed. Hence, the unit test was bad..
+The class I was writing is more complicated than the example above, so when my unit tests failed I assumed it was a problem with my code. Of course this was an issue where it was only failing on the build machines and locally everything worked just fine. After adding various debug logs to by unit tests, the only explanation I could come up with is that Windows will sometimes immediately reuse memory that was just freed. Hence, the unit test was bad.
