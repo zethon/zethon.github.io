@@ -12,12 +12,13 @@ published: true
 
 CMake lets users write scripts in "Script Mode" that can do various tasks. I originally tried doing:
 
-```cmake
+```shell
 > cmake -P somescript.cmake -DSOME_VAR=some_value
 ```
 
 However the `SOME_VAR` was never set. That's because in _Script Mode_ the variables have to come **before** the script:
-```cmake
+
+```shell
 > cmake -DSOME_VAR=some_value -P somescript.cmake
 ```
 
