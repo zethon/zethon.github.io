@@ -8,8 +8,6 @@ tags:
 published: true
 ---
 
-## CMake Script Mode
-
 CMake lets users write scripts in "Script Mode" that can do various tasks. I originally tried doing:
 
 ```shell
